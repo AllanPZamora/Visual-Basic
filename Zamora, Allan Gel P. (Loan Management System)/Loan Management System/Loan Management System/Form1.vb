@@ -3,9 +3,17 @@ Imports System.Security.Principal
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock
 
 Public Class Form1
+    Private Sub txtlrn_TextChanged(sender As Object, e As EventArgs) Handles txtlrn.TextChanged
+        txtlrn.Text = 1
+        txtlrn.Text = ToString("0000")
+
+
+    End Sub
+
+
     Private Sub btnCompute_Click(sender As Object, e As EventArgs) Handles btnCompute.Click
 
-        Dim lrn As String = txtlrn.Text
+
         Dim account As String = txtaccnum.Text
         Dim tname As String = txtname.Text
         Dim address As String = txtaddress.Text
@@ -16,13 +24,11 @@ Public Class Form1
 
         Dim taxconvert As Double = taxrate / 100
 
-
-        txtlrnR.Text = lrn
         txtaccnumR.Text = account
         txtnameR.Text = tname
         txtaddressR.Text = address
-        txtamountR.Text = amountloan
-        txtrateR.Text = taxconvert
+        txtamountR.Text = Format(amountloan, "₱#,##.00")
+        txtrateR.Text = taxrate
         txtyeartpayR.Text = yearpay
 
 
@@ -32,10 +38,11 @@ Public Class Form1
         Dim monthpayment As Double = totalloanpayment / (yearpay * 12)
 
 
-        txtmonthlypay.Text = monthpayment.ToString("N")
-        txttotalint.Text = totalinterest.ToString("N")
-        txttotalapay.Text = totalannualpayment.ToString("N")
-        txtloanpay.Text = totalloanpayment.ToString("N")
+        txtmonthlypay.Text = Format(monthpayment, "₱#,##.00")
+        txttotalint.Text = Format(totalinterest, "₱#,##.00")
+        txttotalapay.Text = Format(totalannualpayment, "₱#,##.00")
+        txtloanpay.Text = Format(totalloanpayment, "₱#,##.00")
+
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
@@ -63,4 +70,6 @@ Public Class Form1
 
 
     End Sub
+
+
 End Class

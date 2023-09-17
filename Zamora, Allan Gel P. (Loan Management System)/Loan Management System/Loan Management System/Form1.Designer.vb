@@ -100,6 +100,7 @@ Partial Class Form1
         Me.txtlrn.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtlrn.Location = New System.Drawing.Point(256, 72)
         Me.txtlrn.Name = "txtlrn"
+        Me.txtlrn.ReadOnly = True
         Me.txtlrn.Size = New System.Drawing.Size(190, 29)
         Me.txtlrn.TabIndex = 3
         '
