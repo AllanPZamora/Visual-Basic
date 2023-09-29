@@ -3,16 +3,8 @@ Imports System.Security.Principal
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock
 
 Public Class Form1
-    Private Sub txtlrn_TextChanged(sender As Object, e As EventArgs) Handles txtlrn.TextChanged
-        txtlrn.Text = 1
-        txtlrn.Text = ToString("0000")
-
-
-    End Sub
-
-
+    Dim lrnnum As Integer = 1
     Private Sub btnCompute_Click(sender As Object, e As EventArgs) Handles btnCompute.Click
-
 
         Dim account As String = txtaccnum.Text
         Dim tname As String = txtname.Text
@@ -20,7 +12,6 @@ Public Class Form1
         Dim amountloan As Double = txtamount.Text
         Dim taxrate As Double = txtrate.Text
         Dim yearpay As Double = txtyeartpay.Text
-
 
         Dim taxconvert As Double = taxrate / 100
 
@@ -31,12 +22,10 @@ Public Class Form1
         txtrateR.Text = taxrate
         txtyeartpayR.Text = yearpay
 
-
         Dim totalinterest As Double = amountloan * taxconvert * yearpay
         Dim totalloanpayment As Double = amountloan + totalinterest
         Dim totalannualpayment As Double = totalloanpayment / yearpay
         Dim monthpayment As Double = totalloanpayment / (yearpay * 12)
-
 
         txtmonthlypay.Text = Format(monthpayment, "₱#,##.00")
         txttotalint.Text = Format(totalinterest, "₱#,##.00")
@@ -47,14 +36,17 @@ Public Class Form1
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
 
-        txtlrn.Text = ""
+        lrnnum += 1
+
+        txtlrn.Text = lrnnum.ToString("0000")
         txtaccnum.Text = ""
         txtname.Text = ""
         txtaddress.Text = ""
         txtamount.Text = ""
         txtrate.Text = ""
         txtyeartpay.Text = ""
-        txtlrnR.Text = ""
+
+        txtlrnR.Text = lrnnum.ToString("0000")
         txtaccnumR.Text = ""
         txtnameR.Text = ""
         txtaddressR.Text = ""
@@ -67,9 +59,7 @@ Public Class Form1
         txttotalapay.Text = ""
         txtloanpay.Text = ""
 
-
-
     End Sub
 
-
+    'Code created by Allan Zamora
 End Class

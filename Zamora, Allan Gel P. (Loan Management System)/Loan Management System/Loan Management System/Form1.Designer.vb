@@ -103,6 +103,8 @@ Partial Class Form1
         Me.txtlrn.ReadOnly = True
         Me.txtlrn.Size = New System.Drawing.Size(190, 29)
         Me.txtlrn.TabIndex = 3
+        Me.txtlrn.Text = "0001"
+        Me.txtlrn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtaccnum
         '
@@ -111,6 +113,7 @@ Partial Class Form1
         Me.txtaccnum.Name = "txtaccnum"
         Me.txtaccnum.Size = New System.Drawing.Size(190, 29)
         Me.txtaccnum.TabIndex = 4
+        Me.txtaccnum.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtaddress
         '
@@ -157,6 +160,7 @@ Partial Class Form1
         Me.txtamount.Name = "txtamount"
         Me.txtamount.Size = New System.Drawing.Size(190, 29)
         Me.txtamount.TabIndex = 10
+        Me.txtamount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label3
         '
@@ -176,6 +180,7 @@ Partial Class Form1
         Me.txtrate.Name = "txtrate"
         Me.txtrate.Size = New System.Drawing.Size(190, 29)
         Me.txtrate.TabIndex = 12
+        Me.txtrate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label4
         '
@@ -195,6 +200,7 @@ Partial Class Form1
         Me.txtyeartpay.Name = "txtyeartpay"
         Me.txtyeartpay.Size = New System.Drawing.Size(190, 29)
         Me.txtyeartpay.TabIndex = 14
+        Me.txtyeartpay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label5
         '
@@ -215,6 +221,7 @@ Partial Class Form1
         Me.txtyeartpayR.Name = "txtyeartpayR"
         Me.txtyeartpayR.Size = New System.Drawing.Size(190, 29)
         Me.txtyeartpayR.TabIndex = 28
+        Me.txtyeartpayR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label6
         '
@@ -235,6 +242,7 @@ Partial Class Form1
         Me.txtrateR.Name = "txtrateR"
         Me.txtrateR.Size = New System.Drawing.Size(190, 29)
         Me.txtrateR.TabIndex = 26
+        Me.txtrateR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label7
         '
@@ -255,6 +263,7 @@ Partial Class Form1
         Me.txtamountR.Name = "txtamountR"
         Me.txtamountR.Size = New System.Drawing.Size(190, 29)
         Me.txtamountR.TabIndex = 24
+        Me.txtamountR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label8
         '
@@ -315,6 +324,7 @@ Partial Class Form1
         Me.txtaccnumR.Name = "txtaccnumR"
         Me.txtaccnumR.Size = New System.Drawing.Size(190, 29)
         Me.txtaccnumR.TabIndex = 18
+        Me.txtaccnumR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtlrnR
         '
@@ -324,6 +334,8 @@ Partial Class Form1
         Me.txtlrnR.Name = "txtlrnR"
         Me.txtlrnR.Size = New System.Drawing.Size(190, 29)
         Me.txtlrnR.TabIndex = 17
+        Me.txtlrnR.Text = "0001"
+        Me.txtlrnR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label11
         '
@@ -355,6 +367,7 @@ Partial Class Form1
         Me.txtloanpay.Name = "txtloanpay"
         Me.txtloanpay.Size = New System.Drawing.Size(190, 29)
         Me.txtloanpay.TabIndex = 36
+        Me.txtloanpay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txttotalapay
         '
@@ -364,6 +377,7 @@ Partial Class Form1
         Me.txttotalapay.Name = "txttotalapay"
         Me.txttotalapay.Size = New System.Drawing.Size(190, 29)
         Me.txttotalapay.TabIndex = 35
+        Me.txttotalapay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label14
         '
@@ -395,6 +409,7 @@ Partial Class Form1
         Me.txttotalint.Name = "txttotalint"
         Me.txttotalint.Size = New System.Drawing.Size(190, 29)
         Me.txttotalint.TabIndex = 32
+        Me.txttotalint.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtmonthlypay
         '
@@ -404,6 +419,7 @@ Partial Class Form1
         Me.txtmonthlypay.Name = "txtmonthlypay"
         Me.txtmonthlypay.Size = New System.Drawing.Size(190, 29)
         Me.txtmonthlypay.TabIndex = 31
+        Me.txtmonthlypay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label16
         '
