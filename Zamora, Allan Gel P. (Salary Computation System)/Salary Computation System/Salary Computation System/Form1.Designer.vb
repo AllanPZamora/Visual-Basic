@@ -158,6 +158,7 @@ Partial Class Form1
         Me.txtworkhours.Name = "txtworkhours"
         Me.txtworkhours.Size = New System.Drawing.Size(192, 29)
         Me.txtworkhours.TabIndex = 9
+        Me.txtworkhours.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtovertimerate
         '
@@ -166,6 +167,7 @@ Partial Class Form1
         Me.txtovertimerate.Name = "txtovertimerate"
         Me.txtovertimerate.Size = New System.Drawing.Size(192, 29)
         Me.txtovertimerate.TabIndex = 12
+        Me.txtovertimerate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtovertime
         '
@@ -174,6 +176,7 @@ Partial Class Form1
         Me.txtovertime.Name = "txtovertime"
         Me.txtovertime.Size = New System.Drawing.Size(192, 29)
         Me.txtovertime.TabIndex = 11
+        Me.txtovertime.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtrate
         '
@@ -182,6 +185,7 @@ Partial Class Form1
         Me.txtrate.Name = "txtrate"
         Me.txtrate.Size = New System.Drawing.Size(192, 29)
         Me.txtrate.TabIndex = 10
+        Me.txtrate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtovertimerateR
         '
@@ -191,6 +195,7 @@ Partial Class Form1
         Me.txtovertimerateR.Name = "txtovertimerateR"
         Me.txtovertimerateR.Size = New System.Drawing.Size(192, 29)
         Me.txtovertimerateR.TabIndex = 24
+        Me.txtovertimerateR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtovertimeR
         '
@@ -200,6 +205,7 @@ Partial Class Form1
         Me.txtovertimeR.Name = "txtovertimeR"
         Me.txtovertimeR.Size = New System.Drawing.Size(192, 29)
         Me.txtovertimeR.TabIndex = 23
+        Me.txtovertimeR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtrateR
         '
@@ -209,6 +215,7 @@ Partial Class Form1
         Me.txtrateR.Name = "txtrateR"
         Me.txtrateR.Size = New System.Drawing.Size(192, 29)
         Me.txtrateR.TabIndex = 22
+        Me.txtrateR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtworkhoursR
         '
@@ -218,6 +225,7 @@ Partial Class Form1
         Me.txtworkhoursR.Name = "txtworkhoursR"
         Me.txtworkhoursR.Size = New System.Drawing.Size(192, 29)
         Me.txtworkhoursR.TabIndex = 21
+        Me.txtworkhoursR.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtdeptR
         '
@@ -305,6 +313,7 @@ Partial Class Form1
         Me.txtNetpay.Name = "txtNetpay"
         Me.txtNetpay.Size = New System.Drawing.Size(192, 29)
         Me.txtNetpay.TabIndex = 36
+        Me.txtNetpay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtDeduc
         '
@@ -314,6 +323,7 @@ Partial Class Form1
         Me.txtDeduc.Name = "txtDeduc"
         Me.txtDeduc.Size = New System.Drawing.Size(192, 29)
         Me.txtDeduc.TabIndex = 35
+        Me.txtDeduc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtincometax
         '
@@ -323,6 +333,7 @@ Partial Class Form1
         Me.txtincometax.Name = "txtincometax"
         Me.txtincometax.Size = New System.Drawing.Size(192, 29)
         Me.txtincometax.TabIndex = 34
+        Me.txtincometax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtPI
         '
@@ -332,6 +343,7 @@ Partial Class Form1
         Me.txtPI.Name = "txtPI"
         Me.txtPI.Size = New System.Drawing.Size(192, 29)
         Me.txtPI.TabIndex = 33
+        Me.txtPI.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtPH
         '
@@ -341,6 +353,7 @@ Partial Class Form1
         Me.txtPH.Name = "txtPH"
         Me.txtPH.Size = New System.Drawing.Size(192, 29)
         Me.txtPH.TabIndex = 32
+        Me.txtPH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtSSS
         '
@@ -350,6 +363,7 @@ Partial Class Form1
         Me.txtSSS.Name = "txtSSS"
         Me.txtSSS.Size = New System.Drawing.Size(192, 29)
         Me.txtSSS.TabIndex = 31
+        Me.txtSSS.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label14
         '
@@ -443,6 +457,7 @@ Partial Class Form1
         Me.txtgross.Name = "txtgross"
         Me.txtgross.Size = New System.Drawing.Size(192, 29)
         Me.txtgross.TabIndex = 40
+        Me.txtgross.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label20
         '

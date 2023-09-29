@@ -17,7 +17,6 @@ Public Class Form1
         Dim PagIbig As Double = 0.03
         Dim Tax As Double = 0.02
 
-
         Dim regpay As Double = workhours * regrate
         Dim overpay As Double = overtime * overrate
         Dim grosspay As Double = regpay + overpay
@@ -47,9 +46,6 @@ Public Class Form1
         txtDeduc.Text = totaldec
         txtNetpay.Text = taxpay
 
-
-
-
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -60,12 +56,14 @@ Public Class Form1
         txtrate.Text = ""
         txtovertime.Text = ""
         txtovertimerate.Text = ""
+
         txtnameR.Text = ""
         txtdeptR.Text = ""
         txtworkhoursR.Text = ""
         txtrateR.Text = ""
         txtovertimeR.Text = ""
         txtovertimerateR.Text = ""
+
         txtgross.Text = ""
         txtSSS.Text = ""
         txtPH.Text = ""
@@ -75,4 +73,5 @@ Public Class Form1
         txtNetpay.Text = ""
 
     End Sub
+    'Code created by Allan Zamora
 End Class
