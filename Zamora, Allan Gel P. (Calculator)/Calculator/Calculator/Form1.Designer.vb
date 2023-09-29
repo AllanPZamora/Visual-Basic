@@ -42,6 +42,7 @@ Partial Class Form1
         Me.buttonmulti = New System.Windows.Forms.Button()
         Me.buttondivide = New System.Windows.Forms.Button()
         Me.buttonclear = New System.Windows.Forms.Button()
+        Me.Buttonx2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'calcDisplay
@@ -57,13 +58,15 @@ Partial Class Form1
         '
         'Buttonequal
         '
+        Me.Buttonequal.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Buttonequal.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Buttonequal.Font = New System.Drawing.Font("Arial Rounded MT Bold", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Buttonequal.Location = New System.Drawing.Point(255, 317)
+        Me.Buttonequal.Location = New System.Drawing.Point(255, 391)
         Me.Buttonequal.Name = "Buttonequal"
-        Me.Buttonequal.Size = New System.Drawing.Size(75, 142)
+        Me.Buttonequal.Size = New System.Drawing.Size(75, 68)
         Me.Buttonequal.TabIndex = 38
         Me.Buttonequal.Text = "="
-        Me.Buttonequal.UseVisualStyleBackColor = True
+        Me.Buttonequal.UseVisualStyleBackColor = False
         '
         'Buttondeci
         '
@@ -127,13 +130,15 @@ Partial Class Form1
         '
         'ButtonAdd
         '
+        Me.ButtonAdd.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.ButtonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.ButtonAdd.Font = New System.Drawing.Font("Arial Rounded MT Bold", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonAdd.Location = New System.Drawing.Point(255, 243)
         Me.ButtonAdd.Name = "ButtonAdd"
         Me.ButtonAdd.Size = New System.Drawing.Size(75, 68)
         Me.ButtonAdd.TabIndex = 31
         Me.ButtonAdd.Text = "+"
-        Me.ButtonAdd.UseVisualStyleBackColor = True
+        Me.ButtonAdd.UseVisualStyleBackColor = False
         '
         'Button6
         '
@@ -167,13 +172,15 @@ Partial Class Form1
         '
         'Buttonsub
         '
+        Me.Buttonsub.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Buttonsub.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Buttonsub.Font = New System.Drawing.Font("Arial Rounded MT Bold", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Buttonsub.Location = New System.Drawing.Point(256, 169)
         Me.Buttonsub.Name = "Buttonsub"
         Me.Buttonsub.Size = New System.Drawing.Size(75, 68)
         Me.Buttonsub.TabIndex = 27
         Me.Buttonsub.Text = "-"
-        Me.Buttonsub.UseVisualStyleBackColor = True
+        Me.Buttonsub.UseVisualStyleBackColor = False
         '
         'Button9
         '
@@ -207,49 +214,71 @@ Partial Class Form1
         '
         'buttonclear1
         '
+        Me.buttonclear1.BackColor = System.Drawing.Color.Red
+        Me.buttonclear1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.buttonclear1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.buttonclear1.Location = New System.Drawing.Point(256, 95)
         Me.buttonclear1.Name = "buttonclear1"
         Me.buttonclear1.Size = New System.Drawing.Size(75, 68)
         Me.buttonclear1.TabIndex = 23
         Me.buttonclear1.Text = "⌫"
-        Me.buttonclear1.UseVisualStyleBackColor = True
+        Me.buttonclear1.UseVisualStyleBackColor = False
         '
         'buttonmulti
         '
+        Me.buttonmulti.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.buttonmulti.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.buttonmulti.Font = New System.Drawing.Font("Arial Rounded MT Bold", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.buttonmulti.Location = New System.Drawing.Point(175, 95)
         Me.buttonmulti.Name = "buttonmulti"
         Me.buttonmulti.Size = New System.Drawing.Size(75, 68)
         Me.buttonmulti.TabIndex = 22
-        Me.buttonmulti.Text = "×"
-        Me.buttonmulti.UseVisualStyleBackColor = True
+        Me.buttonmulti.Text = "x"
+        Me.buttonmulti.UseVisualStyleBackColor = False
         '
         'buttondivide
         '
+        Me.buttondivide.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.buttondivide.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.buttondivide.Font = New System.Drawing.Font("Arial Rounded MT Bold", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.buttondivide.Location = New System.Drawing.Point(94, 95)
         Me.buttondivide.Name = "buttondivide"
         Me.buttondivide.Size = New System.Drawing.Size(75, 68)
         Me.buttondivide.TabIndex = 21
         Me.buttondivide.Text = "÷"
-        Me.buttondivide.UseVisualStyleBackColor = True
+        Me.buttondivide.UseVisualStyleBackColor = False
         '
         'buttonclear
         '
+        Me.buttonclear.BackColor = System.Drawing.Color.Red
+        Me.buttonclear.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.buttonclear.Font = New System.Drawing.Font("Arial Rounded MT Bold", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.buttonclear.Location = New System.Drawing.Point(13, 95)
         Me.buttonclear.Name = "buttonclear"
         Me.buttonclear.Size = New System.Drawing.Size(75, 68)
         Me.buttonclear.TabIndex = 20
         Me.buttonclear.Text = "C"
-        Me.buttonclear.UseVisualStyleBackColor = True
+        Me.buttonclear.UseVisualStyleBackColor = False
+        '
+        'Buttonx2
+        '
+        Me.Buttonx2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Buttonx2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Buttonx2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Buttonx2.Location = New System.Drawing.Point(256, 317)
+        Me.Buttonx2.Name = "Buttonx2"
+        Me.Buttonx2.Size = New System.Drawing.Size(75, 68)
+        Me.Buttonx2.TabIndex = 39
+        Me.Buttonx2.Text = "^"
+        Me.Buttonx2.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange
         Me.ClientSize = New System.Drawing.Size(343, 477)
+        Me.Controls.Add(Me.Buttonx2)
         Me.Controls.Add(Me.Buttonequal)
         Me.Controls.Add(Me.Buttondeci)
         Me.Controls.Add(Me.Button0)
@@ -270,12 +299,13 @@ Partial Class Form1
         Me.Controls.Add(Me.buttondivide)
         Me.Controls.Add(Me.buttonclear)
         Me.Controls.Add(Me.calcDisplay)
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "Calculator"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -301,4 +331,5 @@ Partial Class Form1
     Friend WithEvents buttonmulti As Button
     Friend WithEvents buttondivide As Button
     Friend WithEvents buttonclear As Button
+    Friend WithEvents Buttonx2 As Button
 End Class
