@@ -34,7 +34,6 @@
         BMIText.Text = ""
         BMICText.Text = ""
 
-
-
     End Sub
+    'Code created by Allan Zamora
 End Class

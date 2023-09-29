@@ -140,6 +140,7 @@ Partial Class Form1
         Me.wText.Name = "wText"
         Me.wText.Size = New System.Drawing.Size(177, 22)
         Me.wText.TabIndex = 9
+        Me.wText.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'hText
         '
@@ -148,6 +149,7 @@ Partial Class Form1
         Me.hText.Name = "hText"
         Me.hText.Size = New System.Drawing.Size(177, 22)
         Me.hText.TabIndex = 10
+        Me.hText.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'BMIText
         '
